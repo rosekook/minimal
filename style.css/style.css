@@ -1,0 +1,132 @@
+.logo{
+    display: flex;
+ justify-content: space-around;
+    align-items: center;
+background-color: white;
+}
+.logo ul{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.content{
+    background-image: url(../img/big\ .png);
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content h1{
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 10px;
+}
+
+.block {
+    font-size: 24px;
+    color: #fff;
+}
+.mini-con{
+    background: #FEFEC9;
+   height: 250px;
+   
+}
+
+.mini-con p{
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    padding-top: 50px;
+}
+
+    
+}
+ section h1{
+    text-align: center;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.icon img:hover{
+    background: #a19f9f;
+      padding: 50px; 
+}
+.ramka{
+ 
+ 
+
+
+}
+.team{
+    text-align: center;
+}
+.persons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.vek{
+ background: #F5F5F5;
+    text-align: center;
+    padding: 3rem;
+}
+.manwoman{
+  display: flex;    
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    
+   
+    
+}
+.ramka-2{
+    
+}
+.hlav{
+    display: flex;
+    justify-content: center;
+}
+@media(min-width:240px){
+ .logo{
+     display: block;
+ }
+}
+.logo ul{
+    display: block;
+}
+.block{
+    display: block;
+}
+.btn {
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+.icon{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.persons{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
